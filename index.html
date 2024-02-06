@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Home | Washington</title>
+    <script defer src="emailValidation.js"></script>
 </head>
 <body>
     <header>
@@ -64,7 +65,7 @@
             </aside>
         </div>
         <div class="grid-item-c">
-            <form action="" method="POST">
+            <form id="form" action="/" method="GET">
                 <p>Signup to receive a monthly newsletter!</p>
                 <p>
                     <label for="first">First name:</label>
@@ -78,10 +79,10 @@
                     <label for="email">Email address:</label>
                     <input type="email" name="email" id="email" required>
                 </p>
+                <div id="error"></div>
                 <p>
                     <label for="confirmEmail">Confirm email:</label>
                     <input type="email" name="confirmEmail" id="confirmEmail" required>
-                    <span id="emailError" style="color: red;"></span>
                 </p>
                 <p>
                     <label for="question">Ask a question:</label>
