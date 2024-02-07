@@ -69,6 +69,8 @@ body {
     color: #ffffff;
     text-decoration: none;
     font-size: large;
+    position: relative;
+    right: 45px;
 }
 
 .footer-container a:hover {
