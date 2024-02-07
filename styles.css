@@ -57,7 +57,7 @@ body {
 }
 
 .footer-container {
-    background-color: #333333;
+    background-color: rgb(51, 51, 51);
     color: white;
     text-align: center;
     padding: 5px;
@@ -73,6 +73,10 @@ body {
 
 .footer-container a:hover {
     border-bottom: 2px solid #000000;
+}
+
+.footer-container img {
+    float: right;
 }
 
 .logo img {
